@@ -13,7 +13,7 @@ if os.path.exists('./data/dataset.csv'):
 with st.sidebar: 
     st.image("./images/AUTO.png")
     st.title("Auto L33TH ML")
-    choice = st.radio("Navigation", ["Upload","Profiling","Modelling", "Download"])
+    choice = st.radio("Navigation", ["Upload","Profiling","Modeling", "Download"])
     st.info("This machine learning application helps you build and explore your data.")
 
 if choice == "Upload":
@@ -29,9 +29,9 @@ if choice == "Profiling":
     profile_df = df.profile_report()
     st_profile_report(profile_df)
 
-if choice == "Modelling": 
+if choice == "Modeling": 
     chosen_target = st.selectbox('Choose the Target Column', df.columns)
-    if st.button('Run Modelling'): 
+    if st.button('Run Modeling'): 
         setup(df, target=chosen_target, silent=True)
         setup_df = pull()
         st.dataframe(setup_df)
