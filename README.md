@@ -3,7 +3,7 @@ An auto stream machine learning web application.
 
 ---
 
-<h2>View <a href="https://flixit.netlify.app" target="_blank">Demo</a></h2>
+<h2>View <a href="" target="_blank">Demo</a></h2>
 
 <img src="./images/banner.png"/>
 
