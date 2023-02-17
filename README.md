@@ -18,6 +18,4 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-> When the server is up and running, open your browser and navigate to localhost:3000
-
 ---

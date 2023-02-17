@@ -38,8 +38,8 @@ if choice == "Modeling":
         best_model = compare_models()
         compare_df = pull()
         st.dataframe(compare_df)
-        save_model(best_model, 'best_model')
+        save_model(best_model, 'l33th_auto_model')
 
 if choice == "Download": 
-    with open('best_model.pkl', 'rb') as f: 
-        st.download_button('Download Model', f, file_name="best_model.pkl")
+    with open('l33th_auto_model.pkl', 'rb') as f: 
+        st.download_button('Download Model', f, file_name="l33th_auto_model.pkl")
